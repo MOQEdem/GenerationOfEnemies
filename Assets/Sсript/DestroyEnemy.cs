@@ -8,7 +8,6 @@ public class DestroyEnemy : MonoBehaviour
     {
         if (collision.TryGetComponent<Enemy>(out Enemy enemy))
         {
-            Debug.Log("Есть касание");
             Destroy(collision.gameObject);
         }
     }
