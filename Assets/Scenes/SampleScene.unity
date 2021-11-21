@@ -479,14 +479,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1966778710}
     m_Modifications:
-    - target: {fileID: 1385007663159334914, guid: a69ddf548c645244f9d30d261c19e632, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1385007663159334914, guid: a69ddf548c645244f9d30d261c19e632, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5748186738231762191, guid: a69ddf548c645244f9d30d261c19e632, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -590,6 +582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemy: {fileID: -2171709103065653538, guid: d0bca1dc9b39e6849bf2cff93ed3e760, type: 3}
   _bushes: {fileID: 1966778710}
+  _spawnTime: 2
 --- !u!1001 &2068807343
 PrefabInstance:
   m_ObjectHideFlags: 0
